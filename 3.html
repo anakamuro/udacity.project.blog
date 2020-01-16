@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+     <link rel="stylesheet"
+           href="udacity2.css">
+   <link rel="stylesheet" href="udacity2.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div> </div>
+        <div>B</div>
+        <div>O </div>
+        <div>S</div>
+        <div>T</div>
+        <div>O</div>
+        <div>N</div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png" height="70"> </div>
+        <div>C</div>
+        <div>I</div>
+        <div>T</div>
+        <div>Y</div>
+        <div> </div>
+    </header>
+         
+      <main>
+        <h2>Boston Musuem of Fine Arts</h2>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJQ35lRtosvmhNdX6hmygwdGl_5UziKkD1zkR214x0h7RzpCawRQ&s"
+      width="500" height= "300">
+   <article><p>The Museum of Fine Arts in Boston, Massachusetts, is the fifth largest museum in the United States. It contains more than 450,000 works of art, making it one of the most comprehensive collections in the Americas. It is home to 8,161 paintings, second most only to the Metropolitan Museum in New York among American museums. With more than 1.2 million visitors a year,[2] it is the 52nd most visited art museum in the world as of 2019.</p>
+
+<p>Founded in 1870, the museum moved to its current location in 1909. The museum is affiliated with the School of the Museum of Fine Arts at Tufts.</p>
+   <p id="readless">The renovation included a new Art of the Americas Wing to feature artwork from North, South, and Central America. In 2006, the groundbreaking ceremonies took place. The wing and adjoining Ruth and Carl J. Shapiro Family Courtyard were designed in a restrained, contemporary style by the London-based architectural firm Foster and Partners, under the directorship of Thomas T. Difraia and CBT/Childs Bertman Tseckares Architects. The landscape architecture firm Gustafson Guthrie Nichol redesigned the Huntington Avenue and Fenway entrances, gardens, access roads, and interior courtyards.<span id="dots">...</span></p>
+
+ <p id="readmore">The wing opened on November 20, 2010 with free admission to the public. <strong>Mayor Thomas Menino</strong> declared it "Museum of Fine Arts Day", and more than 13,500 visitors attended the opening. The 12,000-square-foot (1,100 m2) glass-enclosed courtyard features a 42.5-foot (13.0 m) high glass sculpture, titled the Lime Green Icicle Tower, by Dale Chihuly.[9] In 2014, the Art of the Americas Wing was recognized for its high architectural achievement by being awarded the Harleston Parker Medal, by the Boston Society of Architects.
+
+In 2015, the museum renovated its Japanese garden, Tenshin-en. The garden, which originally opened in 1988, was designed by Japanese professor Kinsaku Nakane. The garden's kabukimon-style entrance gate was built by Chris Hall of Massachusetts, using traditional Japanese carpentry techniques.</p>
+    </article> 
+     <button id="Read" onclick="Read()">Read more</button>
+      <script type="text/javascript">
+   var i = 0;
+        var readmore = document.getElementById('readmore');
+        var dots = document.getElementById('dots');
+        var btn = document.getElementById('Read');
+        function Read()
+        {
+          if(i == 0)
+            {
+              readmore.style.display = "block",
+                dots.style.display = "none";
+           btn.innerHTML = "Read Less";
+              i = 1;
+            } else {
+         readmore.style.display = "none",
+          dots.style.display = "block";
+          button.innerHTML = "Read More";
+          i = 0;
+        }
+        }
+  </script> 
+      </main>
+      <div class="sidebar">
+        <h1>Archives</h1>
+        
+  <nav>
+  <ul>
+ <li><a href="udacity2.html">  <div class="card">
+     <img src="http://www.originalgreen.org/_Media/boston-night-shots-07jul11-.jpeg" width="100" height="70">
+      <div class="box1">
+        <h1>North End</h1>
+          </div></div></a></li>
+
+       
+        <li><a href="1.html">  <div class="card">
+       <img src="https://i.pinimg.com/originals/95/71/1a/95711ac53852e0b836d1fc5b164cc105.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Newbury Street</h1>
+          </div></div></a></li>
+          
+           <li><a href="2.html">  <div class="card">
+       <img src="https://cdn.britannica.com/14/125714-050-429B61D6/wall-Green-Monster-Fenway-Park-Boston.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Fenway Park</h1>
+          </div></div></a></li>
+          
+           <li><a href="3.html">  <div class="card">
+       <img src="https://media.cntraveler.com/photos/5b47a08d4b1b564ac0e61d6c/4:5/w_767,c_limit/Museum-of-Fine-Arts,-Boston__2018_MFA-Boston_Koch-Gallery.jpg" width="100" height="70">
+      <div class="box1">
+        <h3>Boston Museum of Fine Arts</h3>
+          </div></div></a></li>
+          
+          <li><a href="4.html">  <div class="card">
+       <img src="https://news.harvard.edu/wp-content/uploads/2018/02/110817_features_ks_042_2500.jpg?w=1200&h=800&crop=1" width="100" height="70">
+      <div class="box1">
+        <h1>Harvard University</h1>
+          </div></div></a></li>
+           
+          <li><a href="5.html">  <div class="card">
+       <img src="https://www.seaportboston.com/resourcefiles/mainimages/boston-common-massachusetts.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Boston Common</h1>
+          </div></div></a></li> 
+          </ul>
+     </nav>
+      </div>
+    </div>
+  </body>
+</html>

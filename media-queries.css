@@ -1,0 +1,35 @@
+@media(min-width: 600px) and (max-width: 1140px){
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  border 2px solid red;
+  margin: auto;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 300px;;
+  grid-template-rows: 100px 900px 150px;
+  grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd sd sd sd sd main main main"
+    "ft ft ft ft ft ft ft ft";
+ 
+}
+}
+
+
+@media(min-width: 1140px) {
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  border 2px solid red;
+  margin: 0 auto;
+  grid-gap: 20px;
+  grid-template-columns:  1000px; 350px;
+  grid-template-rows: 150px 800px 150px;
+  grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main sd sd sd"
+    "ft ft ft ft ft ft ft ft";
+    
+}
