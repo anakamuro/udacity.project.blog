@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+     <link rel="stylesheet"
+           href="udacity2.css">
+   <link rel="stylesheet" href="udacity2.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+      <div>BOSTON CITY</div>
+      <div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png" height="70"> 
+      </header>
+      
+      <main>
+        <h1>Newbury Street</h1>
+        <figure>
+ <img src="https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2018%2F02%2F5a85bb5484905_2382802009_45fdf69701_b.jpeg&width=717&sign=5Jo-k3EXltVHc3tj5NHiQ0p3laFrP2Bf4eOiUUqJjtE"
+      width="500" height= "300">
+      <figcaption>The beautiful day on the Newbury Street</figcaption>
+    </figure>
+   
+      <article><p>  East of Massachusetts Avenue, Newbury Street is a mile-long street lined with historic 19th-century brownstones that contain hundreds of shops and restaurants, making it a popular destination for tourists and locals. The most "high-end boutiques" are located near the Boston Public Garden end of Newbury Street. As the address numbers climb, the shops become slightly less expensive and more bohemian up to Mass Ave. West of Mass Ave the street abuts the Mass Pike on its unbuilt southern side; the northern side is mainly parking and rear service areas for buildings on Commonwealth Avenue. Newbury Street is interrupted by the Muddy River and then continues to abut the Pike until it meets Brookline Avenue. A proposed major project for decking over the Pike to west of Mass Ave could allow for expansion of the shopping district.</p>
+
+ <p id="readless"><strong>Newbury Street</strong> has an eclectic mix of shops and eateries. Its renovated brownstone buildings feature stores at all retail levels, -- physically (basement, street level, and above), stylistically (shabby chic to elegant), and financially (affordable to exclusive). There are coffee shops, trendy cafes and an array of restaurants to suit many tastes. Yet due to the concentration of up-scale stores at its lower end, it is touted as one of the most expensive streets in the world.<span id="dots">...</span></p>
+
+<p id="readmore"><h4>Donlyn Lyndon writes that west of Clarendon Street,</h4>
+
+“ Newbury Street develops its own very distinctive and appealing character and becomes one of the nicest shopping streets in Boston, or anywhere. Renovated town houses with large glass bays on the ground floor produce a delightful urban landscape.... Owners and tenants... have further animated the street by using the 25-foot (7.6 m) space between the building and the sidewalk for various purposes. Some areas are paved and used for displays or sidewalk sales. Others have thick planting... Some lots have stairs up and down to shops and galleries; others have show windows and display cases for flowers or fashions or other items for sale. But each contributes something extra, and together they make these blocks of Newbury Street genuinely attractive."</p></article>
+ <button id="Read" onclick="Read()">Read more</button>
+      <script type="text/javascript">
+   var i = 0;
+        var readmore = document.getElementById('readmore');
+        var dots = document.getElementById('dots');
+        var btn = document.getElementById('Read');
+        function Read()
+        {
+          if(i == 0)
+            {
+              readmore.style.display = "block",
+                dots.style.display = "none";
+           btn.innerHTML = "Read Less";
+              i = 1;
+            } else {
+         readmore.style.display = "none",
+          dots.style.display = "block";
+          button.innerHTML = "Read More";
+          i = 0;
+        }
+        }
+  </script>
+      </main>
+      <div class="sidebar">
+        <h1>Archives</h1>
+       
+  <nav>
+  <ul>
+ <li><a href="udacity2.html">  <div class="card">
+     <img src="http://www.originalgreen.org/_Media/boston-night-shots-07jul11-.jpeg" width="100" height="70">
+      <div class="box1">
+        <h1>North End</h1>
+          </div></div></a></li>
+
+       
+        <li><a href="1.html">  <div class="card">
+       <img src="https://i.pinimg.com/originals/95/71/1a/95711ac53852e0b836d1fc5b164cc105.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Newbury Street</h1>
+          </div></div></a></li>
+          
+           <li><a href="2.html">  <div class="card">
+       <img src="https://cdn.britannica.com/14/125714-050-429B61D6/wall-Green-Monster-Fenway-Park-Boston.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Fenway Park</h1>
+          </div></div></a></li>
+          
+           <li><a href="3.html">  <div class="card">
+       <img src="https://media.cntraveler.com/photos/5b47a08d4b1b564ac0e61d6c/4:5/w_767,c_limit/Museum-of-Fine-Arts,-Boston__2018_MFA-Boston_Koch-Gallery.jpg" width="100" height="70">
+      <div class="box1">
+        <h3>Boston Museum of Fine Arts</h3>
+          </div></div></a></li>
+          
+          <li><a href="4.html">  <div class="card">
+       <img src="https://news.harvard.edu/wp-content/uploads/2018/02/110817_features_ks_042_2500.jpg?w=1200&h=800&crop=1" width="100" height="70">
+      <div class="box1">
+        <h1>Harvard University</h1>
+          </div></div></a></li>
+           
+          <li><a href="5.html">  <div class="card">
+       <img src="https://www.seaportboston.com/resourcefiles/mainimages/boston-common-massachusetts.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Boston Common</h1>
+          </div></div></a></li> 
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+
+header{
+  display: flex;
+  flex-direction: row;
+   align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+   grid-column: 1/4;
+  grid-row: 1/2;
+  font-size: 100px;
+ grid-area: hd;
+}
+
+ header div{
+ font-size: 100px;
+ }

@@ -1,0 +1,26 @@
+
+.sidebar{
+  display: grid;
+   border: 1px solid black;
+   grid-row:  2/3;
+   grid-column: 2/3;
+   text-align: center;
+  background-color: gray;
+  margin-right: 30px;
+  grid-area: sd;
+}
+ 
+  .sidebar h2{
+  justify-content: center;
+  align-item: center;
+  text-align: center;
+}
+
+  .sidebar ul{
+  list-style: none;
+  text-align: center;
+}
+  .sidebar ul li a{
+  text-decoration: none;
+  text-align: center;
+}

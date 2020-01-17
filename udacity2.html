@@ -1,0 +1,104 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta
+  content="width=device-width, initial-scale=1, maximum-scale=1"
+  name="viewport"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet"
+  href="udacity2.css">
+
+  <link rel="stylesheet" href="udacity2.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>BOSTON CITY</div>
+      <div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png" height="70"> 
+      </header>
+
+    <main>
+      <h1>North End</h1>
+      <figure>
+      <img src="https://cdn10.bostonmagazine.com/wp-content/uploads/2017/01/north-end-boston.jpg" width="500" height= "300">
+      <figcaption>The street in North End at night</figcaption>
+    </figure>
+
+      <p id="readless"><em>Boston and its North End</em> offer a veritable surfeit of historical sites and stories: from the days of the American Revolution through the China trade period of the early 1800s, to the extraordinary tsunami of Irish, Portuguese, Jewish and Italian immigrants who flooded Boston over the last century-and-a-half. Each epoch has left an indelible impact on commerce, customs, religious traditions, politics and institutions – in sum – upon the very city and neighborhoods that we know today. (View a full map of Downtown Boston.)<span id="dots">...</span>
+      </p>
+
+      <p id="readmore"><strong>The Freedom Trail</strong>
+      The heart of the Freedom Trail is in the North End neighborhood and walked by 3.2 million visitors each year. The historic walking path was organized in 1951 when 16 sites were “linked” to better tell Boston’s story of the American Revolution. Overseen by The Freedom Trail Foundation, the distinctive red line weaves through 2.5 miles of downtown Boston.</p>
+
+      <p>In the North End, heading north, <strong>the Freedom Trail</strong> comes from Haymarket and Blackstone Street through the Greenway parks to Cross Street. The path then heads down Hanover Street, taking a short detour through North Square to pass the Paul Revere House before returning to Hanover Street. At St. Stephen’s Church, the path turns into the Prado – Paul Revere Mall park past Cyrus E. Dallin’s famous equestrian statue of Paul Revere to the Old North Church on Salem Street. From Old North, the trail heads up Hull Street to Copp’s Hill Burying Ground before heading out of the North End toward Charlestown.</p>
+      <button id="Read" onclick="Read()">Read more</button>
+      <script type="text/javascript">
+       var i = 0;
+       var readmore = document.getElementById('readmore');
+       var dots = document.getElementById('dots');
+       var btn = document.getElementById('Read');
+       function Read()
+       {
+        if(i == 0)
+        {
+          readmore.style.display = "block",
+          dots.style.display = "none";
+          btn.innerHTML = "Read Less";
+          i = 1;
+        } else {
+         readmore.style.display = "none",
+         dots.style.display = "block";
+         button.innerHTML = "Read More";
+         i = 0;
+       }
+     }
+   </script>
+ </main>
+ <div class="sidebar">
+  <h1>Archives</h1>
+  <nav>
+  <ul>
+ <li><a href="udacity2.html">  <div class="card">
+     <img src="http://www.originalgreen.org/_Media/boston-night-shots-07jul11-.jpeg" width="100" height="70">
+      <div class="box1">
+        <h1>North End</h1>
+          </div></div></a></li>
+
+       
+        <li><a href="1.html">  <div class="card">
+       <img src="https://i.pinimg.com/originals/95/71/1a/95711ac53852e0b836d1fc5b164cc105.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Newbury Street</h1>
+          </div></div></a></li>
+          
+           <li><a href="2.html">  <div class="card">
+       <img src="https://cdn.britannica.com/14/125714-050-429B61D6/wall-Green-Monster-Fenway-Park-Boston.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Fenway Park</h1>
+          </div></div></a></li>
+          
+           <li><a href="3.html">  <div class="card">
+       <img src="https://media.cntraveler.com/photos/5b47a08d4b1b564ac0e61d6c/4:5/w_767,c_limit/Museum-of-Fine-Arts,-Boston__2018_MFA-Boston_Koch-Gallery.jpg" width="100" height="70">
+      <div class="box1">
+        <h3>Boston Museum of Fine Arts</h3>
+          </div></div></a></li>
+          
+          <li><a href="4.html">  <div class="card">
+       <img src="https://news.harvard.edu/wp-content/uploads/2018/02/110817_features_ks_042_2500.jpg?w=1200&h=800&crop=1" width="100" height="70">
+      <div class="box1">
+        <h1>Harvard University</h1>
+          </div></div></a></li>
+           
+          <li><a href="5.html">  <div class="card">
+       <img src="https://www.seaportboston.com/resourcefiles/mainimages/boston-common-massachusetts.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Boston Common</h1>
+          </div></div></a></li> 
+          </ul>
+     </nav>
+</div>
+</div>
+</body>
+
+</html>
