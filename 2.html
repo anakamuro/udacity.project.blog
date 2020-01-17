@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+     <link rel="stylesheet"
+           href="udacity2.css">
+   <link rel="stylesheet" href="udacity2.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+      <div class="heading and navigation">BOSTON CITY
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png" height="70">
+      <a href="udacity.html">GO TO HOMEPAGE</a></div>
+    </header>
+
+    <main>
+        <h1>Fenway Park</h1>
+    <figure>
+ <img src="https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/fenway17952.jpg"
+      width="500" height= "300">
+      <figcaption>The very beautiful day inside the Fenway Park</figcaption>
+    </figure>
+   <article><p>Fenway Park is a baseball park located in Boston, Massachusetts, near Kenmore Square. Since <em>1912</em>, it has been the home for the Boston Red Sox, the city's American League baseball team, and since 1953, its only Major League Baseball (MLB) franchise. It is the <strong>oldest</strong> ballpark in MLB. Because of its age and constrained location in Boston's dense Fenway–Kenmore neighborhood, the park has been renovated or expanded many times, resulting in quirky features including "The Triangle," Pesky's Pole, and the Green Monster in left field. It is the fourth-smallest among MLB ballparks by seating capacity, second-smallest by total capacity, and one of eight that cannot accommodate at least 40,000 spectators.</p>
+
+ <p id="readless">Fenway has hosted the World Series 11 times, with the Red Sox winning six of them and the Boston Braves winning one.[note 1] Besides baseball games it has been the site of many other sporting and cultural events including professional football games for the Boston Redskins, Boston Yanks, and the New England Patriots; concerts; soccer and hockey games (such as the 2010 NHL Winter Classic); and political and religious campaigns.<span id="dots">...</span></p>
+
+ <p id="readmore">April 20, 2012, marked Fenway Park's centennial. On March 7 of that year, the park was added to the National Register of Historic Places. Former pitcher Bill Lee has called Fenway Park "a shrine". It is a pending Boston Landmark which will regulate any further changes to the park. Today, the park is considered to be one of the most well-known sports venues in the world.</p>
+</article>
+     <button id="Read" onclick="Read()">Read more</button>
+      <script type="text/javascript">
+   var i = 0;
+        var readmore = document.getElementById('readmore');
+        var dots = document.getElementById('dots');
+        var btn = document.getElementById('Read');
+        function Read()
+        {
+          if(i == 0)
+            {
+              readmore.style.display = "block",
+                dots.style.display = "none";
+           btn.innerHTML = "Read Less";
+              i = 1;
+            } else {
+         readmore.style.display = "none",
+          dots.style.display = "block";
+          button.innerHTML = "Read More";
+          i = 0;
+        }
+        }
+  </script> 
+      </main>
+      <div class="sidebar">
+        <h1>Archives</h1>
+       
+  <nav>
+  <ul>
+ <li><a href="udacity2.html">  <div class="card">
+     <img src="http://www.originalgreen.org/_Media/boston-night-shots-07jul11-.jpeg" width="100" height="70">
+      <div class="box1">
+        <h1>North End</h1>
+          </div></div></a></li>
+
+       
+        <li><a href="1.html">  <div class="card">
+       <img src="https://i.pinimg.com/originals/95/71/1a/95711ac53852e0b836d1fc5b164cc105.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Newbury Street</h1>
+          </div></div></a></li>
+          
+           <li><a href="2.html">  <div class="card">
+       <img src="https://cdn.britannica.com/14/125714-050-429B61D6/wall-Green-Monster-Fenway-Park-Boston.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Fenway Park</h1>
+          </div></div></a></li>
+          
+           <li><a href="3.html">  <div class="card">
+       <img src="https://media.cntraveler.com/photos/5b47a08d4b1b564ac0e61d6c/4:5/w_767,c_limit/Museum-of-Fine-Arts,-Boston__2018_MFA-Boston_Koch-Gallery.jpg" width="100" height="70">
+      <div class="box1">
+        <h3>Boston Museum of Fine Arts</h3>
+          </div></div></a></li>
+          
+          <li><a href="4.html">  <div class="card">
+       <img src="https://news.harvard.edu/wp-content/uploads/2018/02/110817_features_ks_042_2500.jpg?w=1200&h=800&crop=1" width="100" height="70">
+      <div class="box1">
+        <h1>Harvard University</h1>
+          </div></div></a></li>
+           
+          <li><a href="5.html">  <div class="card">
+       <img src="https://www.seaportboston.com/resourcefiles/mainimages/boston-common-massachusetts.jpg" width="100" height="70">
+      <div class="box1">
+        <h1>Boston Common</h1>
+          </div></div></a></li> 
+          </ul>
+     </nav>
+      </div>
+    </div>
+  </body>
+</html>
