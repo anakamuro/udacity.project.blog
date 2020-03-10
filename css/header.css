@@ -1,26 +1,27 @@
 
-header{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: blue;
-  color: white;
-  grid-column: 1/4;
-  grid-row: 1/2;
-  font-size: 100px;
-  grid-area: hd;
-}
+  header{
+    display: grid;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 9vw;
+    grid-area: hd;
+  }
 
- header div{
-   font-size: 100px;
- }
+   header div{
+     font-size: 11.4vw;
+   }
 
- 
- header a {
-   color: white;
-   font-size: 20px;
-   list-style-type: none;
-   text-decoration: none;
- }
+   
+   header a {
+     color: white;
+     font-size: 2vw;
+     list-style-type: none;
+     text-decoration: none;
+   }
 
